@@ -1,0 +1,130 @@
+:root {
+    --login-page-font-size: 1.5rem;
+    --login-page-font-size-small: 1rem;
+    --login-page-margin-bottom: 20px;
+    --login-page-margin-bottom-bigger: 20px;
+    --login-page-margin-bottom-biggest: 50px;
+}
+
+.login-page-form-cover {
+    position: relative;
+}
+
+input::placeholder {
+    font-size: var(--login-page-font-size);
+}
+
+.login-page-form-cover a {
+    font-size: var(--login-page-font-size);
+    text-decoration: underline;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.login-page-form-cover .fg-password {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.login-page-form-cover button {
+    width: 100%;
+    padding: 20px;
+    font-size: var(--login-page-font-size);
+    border-radius: 10px;
+}
+
+.login-page-form-cover p {
+    font-size: var(--login-page-font-size);
+    color: #fff;
+}
+
+.login-page-form-cover .login-page-form input {
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: var(--login-page-font-size);
+    margin-bottom: var(--login-page-margin-bottom);
+}
+
+.login-page-form-cover .login-page-form button {
+    background-color: #2fa11d;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.login-page-form-cover .login-page-form button:hover {
+    background-color: #8fbc8f;
+    transition: background-color 0.5s;
+}
+
+.login-page-form-cover .text-optional {
+    font-size: var(--login-page-font-size-small) !important;
+}
+
+.login-page-form-cover .sign-in-option {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: var(--login-page-margin-bottom-biggest);
+}
+
+.login-page-form-cover .sign-in-option button {
+    width: 45%;
+}
+
+.login-page-form-cover .margin-bottom {
+    margin-bottom: 5px;
+}
+
+.login-page-form-cover .fb {
+    background-color: #4460f4;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.login-page-form-cover .fb:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em #4460f4;
+    transform: translateY(-0.15em);
+    transition: all 0.5s;
+}
+
+.login-page-form-cover .gg {
+    background-color: #d40f0f;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.login-page-form-cover .gg:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em #d40f0f;
+    transform: translateY(-0.15em);
+    transition: all 0.5s;
+}
+
+.login-page-form-cover .fb > i,
+.gg > i {
+    float: left;
+}
+
+.login-page-form-cover .btn-sign-up {
+    background-color: #222;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.login-page-form-cover .btn-sign-up:hover {
+    background-color: #696969;
+    transition: all 0.5s;
+}

@@ -1,0 +1,46 @@
+.login-page-footer {
+    position: absolute;
+    z-index: 0;
+
+    height: 50px;
+    background-color: #fff;
+
+    width: 100vw;
+    bottom: 0;
+
+    font-size: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-page-footer .icon-trophy {
+    margin: 0 auto;
+}
+
+.login-page-footer .text-section {
+    font-size: 1rem;
+
+    margin-left: 100px;
+}
+
+.login-page-footer .text-section .contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+
+    cursor: pointer;
+} 
+
+.login-page-footer .social-media-section {
+    width: 20%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    margin-right: 100px;
+}

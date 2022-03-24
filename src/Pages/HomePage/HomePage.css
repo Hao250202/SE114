@@ -1,0 +1,27 @@
+.home-page {
+    position: relative;
+    font-size: 3rem;
+
+    width: 100vw;
+    height: 100vh; 
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-page::before {
+    position: absolute;
+    content: "";
+
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+
+    background-image: url("..\\src\\img\\stadium-3.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    filter: brightness(50%);
+}

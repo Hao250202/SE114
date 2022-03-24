@@ -1,0 +1,29 @@
+.login-page-language {
+    position: absolute;
+    z-index: 0;
+
+    top: 0;
+    right: 0;
+
+    background-color: #fff;
+    color: #ccc;
+
+    font-size: 2rem;
+
+    width: 13%;
+    text-align: center;
+
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-radius: 50px;
+
+    margin: 20px 30px 0 0;
+}
+
+.login-page-language .text {
+    font-size: 1.2rem;
+}
